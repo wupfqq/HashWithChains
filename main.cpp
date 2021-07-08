@@ -7,7 +7,7 @@ double price;
 int date;
 };
 template<typename T>
-int hash_func(T x, int s){
+int hash_func(T x, int s){ //может быть подставлена любая функция хеширования
   int a=x%s;
   return a;
 }
